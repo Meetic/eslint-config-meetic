@@ -6,12 +6,17 @@
 
 'use strict';
 
-var _ = require('lodash');
-var stylisticIssuesES5 = require('./stylistic-issues-es5');
+var deepExtend = require('deep-extend');
 
-module.exports = _.defaults({
+var stylisticIssuesES5 = require('./stylistic-issues-es5');
+var stylisticIssuesES6 = {
   rules: {
     // Disallow dangling underscores in identifiers
     'no-underscore-dangle': 2
   }
-}, stylisticIssuesES5);
+};
+
+module.exports = deepExtend(
+  stylisticIssuesES5,
+  stylisticIssuesES6
+);

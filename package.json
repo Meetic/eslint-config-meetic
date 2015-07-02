@@ -21,6 +21,9 @@
   "author": "#PoneyClub",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^3.10.0"
+    "deep-extend": "^0.4.0"
+  },
+  "publishConfig": {
+    "registry": "http://npm.dev:4873/"
   }
 }

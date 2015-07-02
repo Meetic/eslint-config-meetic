@@ -5,9 +5,9 @@
 
 'use strict';
 
-var _ = require('lodash');
+var deepExtend = require('deep-extend');
 
-module.exports = _.merge(
+module.exports = deepExtend(
   {
     env: {},
     ecmaFeatures: {},

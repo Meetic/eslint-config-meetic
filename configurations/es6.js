@@ -5,9 +5,9 @@
 
 'use strict';
 
-var _ = require('lodash');
+var deepExtend = require('deep-extend');
 
-module.exports = _.assign(
+module.exports = deepExtend(
   {},
   require('./es5.js'),
   require('../rules/ecmascript-6.js'),

@@ -6,12 +6,17 @@
 
 'use strict';
 
-var _ = require('lodash');
-var bestPracticesES5 = require('./best-practices-es5');
+var deepExtend = require('deep-extend');
 
-module.exports = _.defaults({
+var bestPracticesES5 = require('./best-practices-es5');
+var bestPracticesES6 = {
   rules: {
     // Allow reassignment of function parameters (off by default)
     'no-param-reassign': 0
   }
-}, bestPracticesES5);
+};
+
+module.exports = deepExtend(
+  bestPracticesES5,
+  bestPracticesES6
+);
