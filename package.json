@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-meetic",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "ESLint configuration at Meetic",
   "main": "./configurations/es6.js",
   "scripts": {
@@ -16,7 +16,8 @@
     "eslintconfig",
     "lint",
     "style checker",
-    "style linter"
+    "style linter",
+    "meetic"
   ],
   "author": "#PoneyClub",
   "license": "MIT",
