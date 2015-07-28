@@ -2,6 +2,8 @@
 
 A set of configurable ESLint configurations used in [Meetic][1] projects.
 
+Lead maintainer: [Jean-Christophe Honde](https://github.com/jchonde)
+
 ## Installation
 
 Install this config package and ESLint:
