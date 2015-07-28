@@ -60,8 +60,6 @@ module.exports = {
     'no-nested-ternary': 2,
     // Disallow use of the Object constructor
     'no-new-object': 2,
-    // (deprecated) disallow space before semicolon (off by default)
-    'no-space-before-semi': 2,
     // Disallow space between function identifier and application
     'no-spaced-func': 2,
     // Disallow the use of ternary operators (off by default)
