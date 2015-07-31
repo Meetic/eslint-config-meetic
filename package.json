@@ -6,6 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Meetic/eslint-config-meetic.git"
+  },
+  "contributors": [
+    {
+      "name": "Oleg Sklyanchuk",
+      "url": "https://github.com/olegskl"
+    },
+    {
+      "name": "Alexandre Barbier",
+      "email": "a.barbier@epmistes.net",
+      "url": "https://github.com/Alex-Barbier"
+    }
+  ],
   "keywords": [
     "code checker",
     "code linter",
@@ -19,12 +34,9 @@
     "style linter",
     "meetic"
   ],
-  "author": "#PoneyClub",
+  "author": "Meetic",
   "license": "MIT",
   "dependencies": {
     "deep-extend": "^0.4.0"
-  },
-  "publishConfig": {
-    "registry": "http://npm.dev:4873/"
   }
 }
