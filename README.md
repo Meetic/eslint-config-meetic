@@ -12,7 +12,7 @@ Install this config package and ESLint:
 $ npm install --save-dev eslint-config-meetic
 ```
 
-Note that using this package requires ESLint version ^1.0.0-rc-1.
+Note that using this package requires ESLint version ^1.6.0
 
 ## Usage
 

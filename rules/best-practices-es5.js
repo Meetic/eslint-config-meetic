@@ -96,7 +96,7 @@ module.exports = {
     // Restrict what can be thrown as an exception (off by default)
     'no-throw-literal': 2,
     // Allow usage of expressions in statement position
-    'no-unused-expressions': 0, // because of Chai :(
+    'no-unused-expressions': 2,
     // Disallow use of void operator (off by default)
     'no-void': 2,
     // Disallow usage of configurable warning terms in comments
