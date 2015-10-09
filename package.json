@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-meetic",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "ESLint configuration at Meetic",
   "main": "./configurations/es6.js",
   "scripts": {
