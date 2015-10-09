@@ -73,8 +73,6 @@ module.exports = {
     'no-var': 2,
     // Require method and property shorthand syntax for object literals (off by default)
     'object-shorthand': [2, 'always'],
-    // Require method and property shorthand syntax for object literals
-    'object-shorthand': 2,
     // Suggest using arrow functions as callbacks
     'prefer-arrow-callback': 0,
     // Suggest using const declaration for variables that are never modified after declared
