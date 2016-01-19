@@ -12,13 +12,24 @@
   },
   "contributors": [
     {
-      "name": "Oleg Sklyanchuk",
-      "url": "https://github.com/olegskl"
+      "name": "Alexandre Barbier",
+      "url": "https://github.com/Alex-Barbier"
     },
     {
-      "name": "Alexandre Barbier",
-      "email": "a.barbier@epmistes.net",
-      "url": "https://github.com/Alex-Barbier"
+      "name": "Antoine Jackson",
+      "url": "https://github.com/william26"
+    },
+    {
+      "name": "Benjamin Delamarre",
+      "url": "https://github.com/d34thwings"
+    },
+    {
+      "name": "Matthieu Kluj",
+      "url": "https://github.com/Sankluj"
+    },
+    {
+      "name": "Oleg Sklyanchuk",
+      "url": "https://github.com/olegskl"
     }
   ],
   "keywords": [
@@ -36,7 +47,13 @@
   ],
   "author": "Meetic",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Meetic/eslint-config-meetic/issues"
+  },
   "dependencies": {
     "deep-extend": "^0.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3"
   }
 }
