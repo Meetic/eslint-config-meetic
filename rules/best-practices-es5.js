@@ -13,19 +13,19 @@ module.exports = {
     // Treat var statements as if they were block scoped (off by default)
     'block-scoped-var': 2,
     // Specify the maximum cyclomatic complexity allowed in a program (off by default)
-    'complexity': [2, 6],
+    complexity: [2, 6],
     // Require return statements to either always or never specify values
     'consistent-return': 2,
     // Specify curly brace conventions for all control statements
-    'curly': [2, 'all'],
+    curly: [2, 'all'],
     // Require default case in switch statements (off by default)
     'default-case': 2,
     // Encourages use of dot notation whenever possible
-    'dot-notation': [2, {'allowKeywords': true}],
+    'dot-notation': [2, {allowKeywords: true}],
     // Enforces consistent newlines before or after dots (off by default)
     'dot-location': [2, 'property'],
     // Require the use of === and !==
-    'eqeqeq': 2,
+    eqeqeq: 2,
     // Make sure for-in loops have an if statement (off by default)
     'guard-for-in': 2,
     // Disallow the use of alert, confirm, and prompt
@@ -104,12 +104,12 @@ module.exports = {
     // Disallow use of the with statement
     'no-with': 2,
     // Require use of the second argument for parseInt() (off by default)
-    'radix': 2,
+    radix: 2,
     // Requires to declare all vars on top of their containing scope (off by default)
     'vars-on-top': 2,
     // Require immediate function invocation to be wrapped in parentheses (off by default)
     'wrap-iife': [2, 'inside'],
     // Require or disallow Yoda conditions
-    'yoda': [2, 'never']
+    yoda: [2, 'never']
   }
-}
+};
