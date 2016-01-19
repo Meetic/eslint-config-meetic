@@ -3,7 +3,7 @@
 [![NPM version](http://img.shields.io/npm/v/eslint-config-meetic.svg)](https://www.npmjs.org/package/eslint-config-meetic)
 [![Code Climate](https://codeclimate.com/github/Meetic/eslint-config-meetic/badges/gpa.svg)](https://codeclimate.com/github/Meetic/eslint-config-meetic)
 
-A set of configurable ESLint configurations used in [Meetic][1] projects.
+A set of configurable ESLint configurations used in [Meetic](https://github.com/Meetic) projects.
 
 Lead maintainer: [Jean-Christophe Honde](https://github.com/jchonde)
 
@@ -15,13 +15,10 @@ Install this config package and ESLint:
 $ npm install --save-dev eslint-config-meetic
 ```
 
-Note that using this package requires ESLint version ^1.6.0
-
 ## Usage
 
 This set of configs is meant to be extended on a per-project basis as necessary
-using ESLint's shareable configs feature. For more details about how shareable
-configs work, see the [ESLint documentation][2].
+using ESLint's shareable configs feature. For more details about how shareable configs work, see the [ESLint documentation](http://eslint.org/docs/developer-guide/shareable-configs).
 
 This package includes the following full configurations:
 
@@ -29,8 +26,7 @@ This package includes the following full configurations:
 - `meetic/configurations/es5` - The default ES5 config
 - `meetic/configurations/es6` - The default ES6 config
 
-The default configuration assumes ECMAScript-6. To extend a config in ESLint
-just add the extends attribute to your `.eslintrc`:
+The default configuration assumes ECMAScript-6. To extend a config in ESLint just add the extends attribute to your `.eslintrc`:
 
 ```json
 {
@@ -38,8 +34,7 @@ just add the extends attribute to your `.eslintrc`:
 }
 ```
 
-If your project is written in ECMAScript-5, you can extend with the ES5 subset
-of configuration:
+If your project is written in ECMAScript-5, you can extend with the ES5 subset of configuration:
 
 ```json
 {
@@ -51,9 +46,4 @@ This ruleset enforces neither `env` nor `globals` settings. They are meant to be
 
 ## License
 
-[MIT License][3]
-
-
-[1]: http://www.meetic.fr
-[2]: http://eslint.org/docs/developer-guide/shareable-configs
-[3]: http://opensource.org/licenses/MIT
+[MIT License](http://opensource.org/licenses/MIT)
