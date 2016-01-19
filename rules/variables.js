@@ -8,7 +8,8 @@
 
 module.exports = {
   rules: {
-    // Disallow the catch clause parameter name being the same as a variable in the outer scope (off by default in the node environment)
+    // Disallow the catch clause parameter name being the same as a variable in the outer scope
+    // (off by default in the node env)
     'no-catch-shadow': 2,
     // Disallow deletion of variables
     'no-delete-var': 2,

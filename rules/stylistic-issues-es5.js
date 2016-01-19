@@ -11,11 +11,11 @@ module.exports = {
     // Enforce spacing inside array brackets (off by default)
     'array-bracket-spacing': [2, 'never'],
     // Enforce one true brace style (off by default)
-    'brace-style': [2, '1tbs', {'allowSingleLine': true}],
+    'brace-style': [2, '1tbs', {allowSingleLine: true}],
     // Require camel case names
-    'camelcase': [2, {'properties': 'never'}],
+    camelcase: [2, {properties: 'never'}],
     // Enforce spacing before and after comma
-    'comma-spacing': [2, {'before': false, 'after': true}],
+    'comma-spacing': [2, {before: false, after: true}],
     // Enforce one true comma style (off by default)
     'comma-style': [2, 'last'],
     // Require or disallow padding inside computed properties (off by default)
@@ -29,17 +29,17 @@ module.exports = {
     // Enforces use of function declarations or expressions (off by default)
     'func-style': [2, 'declaration'],
     // This option sets a specific tab width for your code (off by default)
-    'indent': [2, 2],
+    indent: [2, 2],
     // Enforces spacing between keys and values in object literal properties
-    'key-spacing': [2, {'beforeColon': false, 'afterColon': true}],
+    'key-spacing': [2, {beforeColon: false, afterColon: true}],
     // Enforces empty lines around comments (off by default)
-    'lines-around-comment': [2, {'beforeBlockComment': true}],
+    'lines-around-comment': [2, {beforeBlockComment: true}],
     // Disallow mixed 'LF' and 'CRLF' as linebreaks (off by default)
     'linebreak-style': 0,
     // Specify the maximum depth callbacks can be nested (off by default)
     'max-nested-callbacks': [2, 3],
     // Require a capital letter for constructors
-    'new-cap': [2, {'newIsCap': true}],
+    'new-cap': [2, {newIsCap: true}],
     // Disallow the omission of parentheses when invoking a constructor with no arguments
     'new-parens': 2,
     // Allow/disallow an empty newline after var statement (off by default)
@@ -83,11 +83,11 @@ module.exports = {
     // Require quotes around object literal property names (off by default)
     'quote-props': [2, 'as-needed'],
     // Specify whether backticks, double or single quotes should be used
-    'quotes': [2, 'single'],
+    quotes: [2, 'single'],
     // Enforce spacing before and after semicolons
-    'semi-spacing': [2, {'before': false, 'after': true}],
+    'semi-spacing': [2, {before: false, after: true}],
     // Require or disallow use of semicolons instead of ASI
-    'semi': [2, 'always'],
+    semi: [2, 'always'],
     // Sort variables within the same declaration block (off by default)
     'sort-vars': 0,
     // Require a space after certain keywords (off by default)
@@ -95,7 +95,7 @@ module.exports = {
     // Require or disallow space before blocks (off by default)
     'space-before-blocks': [2, 'always'],
     // Require or disallow space before function opening parenthesis (off by default)
-    'space-before-function-paren': [2, {'anonymous': 'always', 'named': 'never'}],
+    'space-before-function-paren': [2, {anonymous: 'always', named: 'never'}],
     // Require or disallow spaces inside parentheses (off by default)
     'space-in-parens': [2, 'never'],
     // Require spaces around operators
@@ -103,7 +103,7 @@ module.exports = {
     // Require a space after return, throw, and case
     'space-return-throw-case': 2,
     // Require or disallow spaces before/after unary operators (words on by default, nonwords off by default)
-    'space-unary-ops': [2, {'words': true, 'nonwords': false}],
+    'space-unary-ops': [2, {words: true, nonwords: false}],
     // Require or disallow a space immediately following the // or /* in a comment (off by default)
     'spaced-comment': [2, 'always'],
     // Require regex literals to be wrapped in parentheses (off by default)

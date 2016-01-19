@@ -9,6 +9,6 @@
 module.exports = {
   rules: {
     // Controls location of Use Strict Directives
-    'strict': [2, 'global']
+    strict: [2, 'global']
   }
 };

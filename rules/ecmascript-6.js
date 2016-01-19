@@ -10,47 +10,47 @@
 module.exports = {
   ecmaFeatures: {
     // Enable arrow functions
-    'arrowFunctions': true,
+    arrowFunctions: true,
     // Enable binary literals
-    'binaryLiterals': true,
+    binaryLiterals: true,
     // Enable let and const (aka block bindings)
-    'blockBindings': true,
+    blockBindings: true,
     // Enable classes
-    'classes': true,
+    classes: true,
     // Enable default function parameters
-    'defaultParams': true,
+    defaultParams: true,
     // Enable destructuring
-    'destructuring': true,
+    destructuring: true,
     // Enable for-of loops
-    'forOf': true,
+    forOf: true,
     // Enable generators
-    'generators': true,
+    generators: true,
     // Enable modules and global strict mode
-    'modules': true,
+    modules: true,
     // Enable computed object literal property names
-    'objectLiteralComputedProperties': true,
+    objectLiteralComputedProperties: true,
     // Enable duplicate object literal properties in strict mode
-    'objectLiteralDuplicateProperties': true,
+    objectLiteralDuplicateProperties: true,
     // Enable object literal shorthand methods
-    'objectLiteralShorthandMethods': true,
+    objectLiteralShorthandMethods: true,
     // Enable object literal shorthand properties
-    'objectLiteralShorthandProperties': true,
+    objectLiteralShorthandProperties: true,
     // Enable octal literals
-    'octalLiterals': true,
+    octalLiterals: true,
     // Enable the regular expression u flag
-    'regexUFlag': true,
+    regexUFlag: true,
     // Enable the regular expression y flag
-    'regexYFlag': true,
+    regexYFlag: true,
     // Enable the rest parameters
-    'restParams': true,
+    restParams: true,
     // Enable the spread operator
-    'spread': true,
+    spread: true,
     // Enable super references inside of functions
-    'superInFunctions': true,
+    superInFunctions: true,
     // Enable template strings
-    'templateStrings': true,
+    templateStrings: true,
     // Enable code point escapes
-    'unicodeCodePointEscapes': true
+    unicodeCodePointEscapes: true
   },
   rules: {
     // Require parens in arrow function arguments
