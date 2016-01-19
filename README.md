@@ -1,7 +1,7 @@
 # eslint-config-meetic
 
 [![NPM version](http://img.shields.io/npm/v/eslint-config-meetic.svg)](https://www.npmjs.org/package/eslint-config-meetic)
-[![Build Status](https://travis-ci.org/meetic/eslint-config-meetic.svg?branch=master)](https://travis-ci.org/meetic/eslint-config-meetic)
+[![Build Status](https://travis-ci.org/Meetic/eslint-config-meetic.svg?branch=master)](https://travis-ci.org/Meetic/eslint-config-meetic)
 [![Code Climate](https://codeclimate.com/github/Meetic/eslint-config-meetic/badges/gpa.svg)](https://codeclimate.com/github/Meetic/eslint-config-meetic)
 
 A set of configurable ESLint configurations used in [Meetic](https://github.com/Meetic) projects.
