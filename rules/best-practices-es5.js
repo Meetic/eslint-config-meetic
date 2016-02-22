@@ -36,8 +36,6 @@ module.exports = {
     'no-div-regex': 2,
     // Disallow else after a return in an if (off by default)
     'no-else-return': 2,
-    // Disallow use of labels for anything other than loops and switches
-    'no-empty-label': 2,
     // Disallow comparisons to null without a type-checking operator (off by default)
     'no-eq-null': 2,
     // Disallow use of eval()
