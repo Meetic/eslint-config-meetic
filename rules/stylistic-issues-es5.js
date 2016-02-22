@@ -91,7 +91,7 @@ module.exports = {
     // Sort variables within the same declaration block (off by default)
     'sort-vars': 0,
     // Require a space after certain keywords (off by default)
-    'space-after-keywords': [2, 'always'],
+    'keyword-spacing': 2,
     // Require or disallow space before blocks (off by default)
     'space-before-blocks': [2, 'always'],
     // Require or disallow space before function opening parenthesis (off by default)
@@ -100,8 +100,6 @@ module.exports = {
     'space-in-parens': [2, 'never'],
     // Require spaces around operators
     'space-infix-ops': 2,
-    // Require a space after return, throw, and case
-    'space-return-throw-case': 2,
     // Require or disallow spaces before/after unary operators (words on by default, nonwords off by default)
     'space-unary-ops': [2, {words: true, nonwords: false}],
     // Require or disallow a space immediately following the // or /* in a comment (off by default)
