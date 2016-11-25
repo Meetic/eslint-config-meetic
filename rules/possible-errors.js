@@ -8,8 +8,6 @@
 
 module.exports = {
   rules: {
-    // Disallow or enforce trailing commas
-    'comma-dangle': 2,
     // Disallow assignment in conditional expressions
     'no-cond-assign': 2,
     // Disallow use of console (off by default in the node environment)
@@ -46,25 +44,29 @@ module.exports = {
     'no-invalid-regexp': 2,
     // Disallow irregular whitespace outside of strings and comments
     'no-irregular-whitespace': 2,
-    // Disallow negation of the left operand of an in expression
-    'no-negated-in-lhs': 2,
     // Disallow the use of object properties of the global object (Math and JSON) as functions
     'no-obj-calls': 2,
+    // Disallow calling some Object.prototype methods directly on object instances
+    'no-prototype-builtins': 2,
     // Disallow multiple spaces in a regular expression literal
     'no-regex-spaces': 2,
-    // Disallow reserved words being used as object literal keys (off by default)
-    'no-reserved-keys': 0,
     // Disallow sparse arrays
     'no-sparse-arrays': 2,
+    // Disallow template literal placeholder syntax in regular strings
+    'no-template-curly-in-string': 2,
+    // Disallow confusing multiline expressions
+    'no-unexpected-multiline': 2,
     // Disallow unreachable statements after a return, throw, continue, or break statement
     'no-unreachable': 2,
+    // Disallow control flow statements in finally blocks
+    'no-unsafe-finally': 2,
+    // Disallow negation of the left operand of an in expression
+    'no-unsafe-negation': 2,
     // Disallow comparisons with the value NaN
     'use-isnan': 2,
     // Ensure JSDoc comments are valid (off by default)
     'valid-jsdoc': 2,
     // Ensure that the results of typeof are compared against a valid string
-    'valid-typeof': 2,
-    // Avoid code that looks like two expressions but is actually one (off by default)
-    'no-unexpected-multiline': 2
+    'valid-typeof': 2
   }
 };

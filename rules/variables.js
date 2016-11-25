@@ -8,6 +8,8 @@
 
 module.exports = {
   rules: {
+    // Don't require initialization in variable declarations
+    'init-declarations': 0,
     // Disallow the catch clause parameter name being the same as a variable in the outer scope
     // (off by default in the node env)
     'no-catch-shadow': 2,
@@ -15,6 +17,8 @@ module.exports = {
     'no-delete-var': 2,
     // Disallow labels that share a name with a variable
     'no-label-var': 2,
+    // Disallow specified global variables
+    // no-restricted-globals: [2, 'event'],
     // Disallow shadowing of names such as arguments
     'no-shadow-restricted-names': 2,
     // Disallow declaration of variables already declared in the outer scope
