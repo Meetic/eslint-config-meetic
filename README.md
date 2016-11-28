@@ -6,8 +6,6 @@
 
 A set of configurable ESLint configurations used in [Meetic](https://github.com/Meetic) projects.
 
-Lead maintainer: [Jean-Christophe Honde](https://github.com/jchonde)
-
 ## Installation
 
 Install this config package and ESLint:

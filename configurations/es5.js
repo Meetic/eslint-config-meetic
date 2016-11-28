@@ -16,7 +16,6 @@ module.exports = deepExtend(
   },
   require('../rules/best-practices-es5.js'),
   require('../rules/possible-errors.js'),
-  require('../rules/legacy.js'),
   require('../rules/node.js'),
   require('../rules/strict-mode.js'),
   require('../rules/stylistic-issues-es5.js'),

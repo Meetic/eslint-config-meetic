@@ -12,7 +12,9 @@ var bestPracticesES5 = require('./best-practices-es5');
 var bestPracticesES6 = {
   rules: {
     // Allow reassignment of function parameters (off by default)
-    'no-param-reassign': 0
+    'no-param-reassign': 0,
+    // Enforce that class methods utilize this
+    'class-methods-use-this': 2
   }
 };
 

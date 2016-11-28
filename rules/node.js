@@ -8,7 +8,11 @@
 
 module.exports = {
   rules: {
-    // Enforces error handling in callbacks (off by default) (on by default in the node environment)
+    // Require return statements after callbacks
+    'callback-return': [2, ['callback', 'cb', 'done', 'next']],
+    // Don't require require() calls to be placed at top-level module scope
+    'global-require': 0,
+    // Enforce error handling in callbacks
     'handle-callback-err': [2, '^.*(e|E)rr(or)?$'],
     // Disallow mixing regular variable and require declarations (off by default) (on by default in the node env)
     'no-mixed-requires': 2,
@@ -16,11 +20,13 @@ module.exports = {
     'no-new-require': 2,
     // Disallow string concatenation with __dirname and __filename (off by default) (on by default in the node env)
     'no-path-concat': 2,
-    // Disallow process.exit() (on by default in the node environment)
+    // Disallow use of process.env
+    'no-process-env': 2,
+    // Disallow process.exit()
     'no-process-exit': 2,
-    // Restrict usage of specified node modules (off by default)
+    // Allow usage of all node modules
     'no-restricted-modules': 0,
-    // Disallow use of synchronous methods (off by default)
+    // Disallow use of synchronous methods
     'no-sync': 2
   }
 };
