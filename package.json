@@ -54,6 +54,6 @@
     "deep-extend": "^0.4.1"
   },
   "devDependencies": {
-    "eslint": "^3.10.2"
+    "eslint": "^3.12.0"
   }
 }
