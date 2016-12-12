@@ -8,6 +8,8 @@
 
 module.exports = {
   rules: {
+    // Disallow await inside of loops
+    'no-await-in-loop': 2,
     // Disallow assignment in conditional expressions
     'no-cond-assign': 2,
     // Disallow use of console (off by default in the node environment)
