@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-meetic",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "ESLint configuration at Meetic",
   "main": "./configurations/es6.js",
   "scripts": {
@@ -30,6 +30,10 @@
     {
       "name": "Oleg Sklyanchuk",
       "url": "https://github.com/olegskl"
+    },
+    {
+      "name": "Nicolas Labyt",
+      "url": "https://github.com/obcdnico"
     }
   ],
   "keywords": [
@@ -54,6 +58,6 @@
     "deep-extend": "^0.4.1"
   },
   "devDependencies": {
-    "eslint": "^3.12.0"
+    "eslint": "^4.3.0"
   }
 }
