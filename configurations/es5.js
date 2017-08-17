@@ -10,7 +10,9 @@ var deepExtend = require('deep-extend');
 module.exports = deepExtend(
   {
     env: {},
-    ecmaFeatures: {},
+    parserOptions: {
+      ecmaFeatures: {}
+    },
     globals: {},
     rules: {}
   },
